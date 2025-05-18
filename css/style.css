@@ -302,7 +302,7 @@ td {
 }
 .stu {
   text-align: center;
-  width: fit-content;
+  width: 100%;
   margin-left: 50%;
   margin-top: 5%;
   font-size: 19px;
@@ -315,26 +315,18 @@ td {
   font-family: poppins;
 }
 .feed {
-  display: flex;
-  width: 90%;
-  justify-content: space-between;
-  gap: 10%;
-  margin-top: 5%;
-  margin-left: 50%;
-  margin-left: 50%;
-  transform: translate(-50%, 0);
+  width: 100%;
   font-size: 20px;
   font-family: poppins;
 }
-.feed1 {
-  margin-top: 2%;
+.feed2{
   display: flex;
-  margin-left: 2%;
+  justify-content: center;
+  align-items: center;
   gap: 5%;
   padding: 1%;
-  line-height: 2vh;
-  background-color: #fff3f3;
-  border-radius: 5%;
+  background-color: #ceaeae;
+  border-radius: 15px;
 }
 .feed1 img {
   border-radius: 50%;
@@ -345,6 +337,7 @@ td {
 .feed11 {
   display: flex;
   flex-direction: column;
+  padding: 2%;
 }
 .f1 {
   font-size: 14px;
@@ -352,24 +345,25 @@ td {
 h4 {
   font-size: bold;
 }
+.finalcontact{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .contact {
   display: flex;
   flex-direction: column;
-  margin-left: 50%;
-  margin-right: 50%;
-  margin-top: 5%;
-  transform: translate(-50%, 0);
-  width: 90%;
+  width: 100%;
   height: 50vh;
   color: white;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
   font-family: poppins;
-  border: 2px solid black;
-  border-radius: 20px;
   background-image: linear-gradient(rgb(4, 9, 30, 0.7), rgb(4, 9, 30, 0.7)),
     url("../banner2.jpg");
+}
+.contact1{
+  /* width: 80%; */
 }
 .contact1 p {
   text-align: center;
@@ -397,7 +391,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 13vh;
   width: 100%;
   font-family: poppins;
 }
@@ -426,4 +419,21 @@ footer {
   width: 100%;
   border-radius: 15px;
   overflow: hidden;
+}
+.feedback{
+  width: 80%;
+}
+.cbtn{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 1%;
+  background: transparent;
+  cursor: pointer;
+}
+.contact-txt{
+  height: 50%;
 }

@@ -433,3 +433,12 @@
         box-shadow: 0 0 20px 5px rgba(50, 50, 54, 0.7);
         transition: 0.4s;
       }
+      .c-button{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 5%;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+      }
