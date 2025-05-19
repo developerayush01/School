@@ -9,16 +9,15 @@
   padding: 0;
 }
 header {
-  height: 10vh;
+  height: 20vh;
+  padding: 0 5%;
   color: white;
 }
 .logo img {
-  height: 10vh;
   width: 5vw;
 }
 .box1 {
   height: 100vh;
-  border: 3px solid black;
   background-image: linear-gradient(rgb(4, 9, 30, 0.7), rgb(4, 9, 30, 0.7)),
     url("../banner.png");
   background-repeat: no-repeat;
