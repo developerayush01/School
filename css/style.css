@@ -13,17 +13,7 @@ header {
   color: white;
 }
 .header {
-  padding-top: 2vh;
-}
-.logo {
-  padding-left: 5vw;
-  width: 15vw;
-  height: 10vh;
-  display: flex;
-  font-family: Pacifico;
-  font-size: 30px;
-  align-items: center;
-  gap: 2vw;
+  padding: 2vh;
 }
 .logo img {
   height: 10vh;
