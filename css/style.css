@@ -12,9 +12,6 @@ header {
   height: 10vh;
   color: white;
 }
-.header {
-  padding: 2vh;
-}
 .logo img {
   height: 10vh;
   width: 5vw;
@@ -28,10 +25,6 @@ header {
   background-size: 100vw 100vh;
 }
 
-.header {
-  height: 100%;
-  display: flex;
-}
 .links {
   margin-left: auto;
   margin-right: 2vw;
