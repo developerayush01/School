@@ -59,7 +59,6 @@ ul li a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 13vh;
         width: 100%;
         font-family: poppins;
       }
@@ -73,7 +72,11 @@ ul li a {
       {
         opacity: 1;
       }
-      .container
+      .certificate{
+        width: 100%;
+        padding: 0 2%;
+      }
+      .contain
       {
         display: flex;
         width: 100%;
