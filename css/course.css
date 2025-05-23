@@ -204,10 +204,6 @@ ul li a {
         text-align: center;
       }
       .table3 {
-        margin-top: 3%;
-        margin-left: 50%;
-        margin-right: 50%;
-        transform: translate(-50%, 0);
         width: 80%;
         text-align: center;
       }
@@ -389,7 +385,6 @@ ul li a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 13vh;
         width: 100%;
         font-family: poppins;
       }
